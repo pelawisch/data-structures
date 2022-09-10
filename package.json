@@ -20,7 +20,7 @@
     "lint": "eslint . --ext .ts",
     "lintf": "yarn run lint --fix",
     "dev": "tsnd --respawn --transpile-only src/index.ts",
-    "build": "rimraf dist && tsc",
+    "build": "rimraf dist types && tsc",
     "up": "yarn run build && node dist/index.js"
   }
 }
