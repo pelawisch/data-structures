@@ -10,6 +10,9 @@
         "plugin:@typescript-eslint/eslint-recommended"
     ],
     "rules": {
-        "semi": "warn"
+        "semi": "warn",
+        "indent": ["warn", 4],
+        "no-multi-spaces": "warn",
+        "quotes": "warn"
     }
 }
